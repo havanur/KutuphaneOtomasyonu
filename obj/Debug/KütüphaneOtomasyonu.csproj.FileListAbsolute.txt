@@ -1,0 +1,15 @@
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\bin\Debug\KütüphaneOtomasyonu.exe.config
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\bin\Debug\KütüphaneOtomasyonu.exe
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\bin\Debug\KütüphaneOtomasyonu.pdb
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.csprojResolveAssemblyReference.cache
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.kullanici.resources
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.Properties.Resources.resources
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.csproj.GenerateResource.Cache
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.exe
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.pdb
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.kitapListele.resources
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.OkuyucularıListele.resources
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.KütüphaneTakipIslemleri.resources
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.YeniKullaniciKayit.resources
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.KitapEkle.resources
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.OkuyucuEkle.resources
