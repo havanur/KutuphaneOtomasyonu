@@ -95,5 +95,17 @@ namespace KütüphaneOtomasyonu
             else
                 MessageBox.Show("Lütfen arama türünü seçiniz..");
         }
+
+        private void dataGridView1_Click(object sender, EventArgs e)
+        {
+            EmanetAlVer emanet = new EmanetAlVer();
+            emanet.Show();
+        }
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            EmanetAlVer emanet = new EmanetAlVer();
+            emanet.Show();
+        }
     }
 }
