@@ -56,7 +56,7 @@ namespace KütüphaneOtomasyonu
 
         private void kitapListele_Load(object sender, EventArgs e)
         {
-            kayitlikitap();
+            //kayitlikitap();
             comboBox1.Items.Add("BarkodNo");
             comboBox1.Items.Add("KitapAdi");
             comboBox1.Items.Add("YazarAdi");
@@ -69,13 +69,13 @@ namespace KütüphaneOtomasyonu
             KitaplariGetir();
         }
 
-        void kayitlikitap() //Kayıtlı Kitap sayısı
+       /* void kayitlikitap() //Kayıtlı Kitap sayısı
         {
             baglanti = new SqlConnection("Server=(localdb)\\V11.0; Initial Catalog=KütüphaneDB;Integrated Security=SSPI");
             baglanti.Open();
             SqlCommand kitapsayisi = new SqlCommand("Select Count(*) From Kitaplar", baglanti);
             label14.Text = "Kayıtlı Kitap Sayısı :" + (int)kitapsayisi.ExecuteScalar();
-        }
+        }*/
 
         private void button3_Click(object sender, EventArgs e)//Yenile butonuna basıldığında kitapbilgilerini silme
         {
@@ -142,7 +142,7 @@ namespace KütüphaneOtomasyonu
             baglanti.Open();
             komut.ExecuteNonQuery();
             baglanti.Close();
-            kayitlikitap();
+            //kayitlikitap();
 
 
 
@@ -157,7 +157,7 @@ namespace KütüphaneOtomasyonu
             yeni.Show();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e) //Sil
         {
             string sorgu = "Delete From Kitaplar Where BarkodNo=@BarkodNo";
             komut = new SqlCommand(sorgu, baglanti);
@@ -167,8 +167,8 @@ namespace KütüphaneOtomasyonu
             baglanti.Close();
 
             KitaplariGetir();
-            kayitlikitap();
-        } //Sil
+            //kayitlikitap();
+        } 
 
         private void textBox1_TextChanged(object sender, EventArgs e) //ARAMA
         {

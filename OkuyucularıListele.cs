@@ -33,16 +33,16 @@ namespace KütüphaneOtomasyonu
             baglanti.Close();
 
         }
-        void kayitliokuyucu() //Kayıtlı Okuyucu sayısı
+        /*void kayitliokuyucu() //Kayıtlı Okuyucu sayısı
         {
             baglanti = new SqlConnection("Server=(localdb)\\V11.0; Initial Catalog=KütüphaneDB;Integrated Security=SSPI");
             baglanti.Open();
             SqlCommand kitapsayisi = new SqlCommand("Select Count(*) From Okuyucular", baglanti);
             label14.Text = "Kayıtlı Okuyucu Sayısı :" + (int)kitapsayisi.ExecuteScalar();
-        }
+        }*/
         private void OkuyucularıListele_Load(object sender, EventArgs e)
         {
-            kayitliokuyucu();
+            //kayitliokuyucu();
             comboBox1.Items.Add("TcKimlikNo");
             comboBox1.Items.Add("Ad");
             comboBox1.Items.Add("Soyad");

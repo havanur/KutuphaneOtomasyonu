@@ -76,8 +76,8 @@ namespace KütüphaneOtomasyonu
             komut.Parameters.AddWithValue("@YazarAdi", textBox3.Text);
             komut.Parameters.AddWithValue("@YayinEvi", textBox4.Text);
             komut.Parameters.AddWithValue("@SayfaSayisi", Convert.ToInt32(textBox5.Text));
-            komut.Parameters.AddWithValue("@KitapTürü", comboBox1.Text);
-            komut.Parameters.AddWithValue("@TeminTürü", comboBox2.Text);
+            komut.Parameters.AddWithValue("@KitapTürü", comboBox2.Text);
+            komut.Parameters.AddWithValue("@TeminTürü", comboBox1.Text);
             komut.Parameters.AddWithValue("@TeminTarihi", dateTimePicker1.Value);
             komut.Parameters.AddWithValue("@CiltNo", Convert.ToInt32(textBox6.Text));
             komut.Parameters.AddWithValue("@StokSayisi", numericUpDown1.Value);
