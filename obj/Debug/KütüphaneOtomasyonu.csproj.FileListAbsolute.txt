@@ -13,3 +13,5 @@ E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtom
 E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.YeniKullaniciKayit.resources
 E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.KitapEkle.resources
 E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.OkuyucuEkle.resources
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.EmanetAlVer.resources
+E:\Project\KütüphaneOtomasyonu\KütüphaneOtomasyonu\obj\Debug\KütüphaneOtomasyonu.EmanetVerilenKitaplar.resources

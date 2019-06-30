@@ -107,6 +107,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EmanetAlVer.resx">
+      <DependentUpon>EmanetAlVer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmanetVerilenKitaplar.resx">
+      <DependentUpon>EmanetVerilenKitaplar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="KitapEkle.resx">
       <DependentUpon>KitapEkle.cs</DependentUpon>
     </EmbeddedResource>

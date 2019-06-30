@@ -32,9 +32,7 @@ namespace KütüphaneOtomasyonu
             da.Fill(dt);
             dataGridView1.DataSource = dt;
             baglanti.Close();
-            int kayit=-1;
-            kayit += dataGridView1.Rows.Count;
-            label14.Text = kayit.ToString();
+            
 
         }
 
