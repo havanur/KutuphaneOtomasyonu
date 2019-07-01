@@ -17,21 +17,13 @@ namespace KütüphaneOtomasyonu
         {
             InitializeComponent();
         }
-
-        private void btn_kullaniciKayit_Click(object sender, EventArgs e)
-        {
-            YeniKullaniciKayit yeni = new YeniKullaniciKayit();
-            yeni.Show();
-            this.Hide();
-        }
-
+        
         SqlConnection con = new SqlConnection("Server=(localdb)\\V11.0; Initial Catalog=KütüphaneDB;Integrated Security=SSPI ");
         SqlDataReader dr;
 
         private void btn_kullaniciGiris_Click(object sender, EventArgs e)
         {
-            
-                con.Open();
+               con.Open();
                 SqlCommand cmd = new SqlCommand("sp_Kullanicilar",con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = "sp_Kullanicilar";
@@ -48,17 +40,17 @@ namespace KütüphaneOtomasyonu
                 }
                 else
                 {
-                    MessageBox.Show("HATALI GİRİŞ");
+                    MessageBox.Show("HATALI GİRİŞ YAPTINIZ");
                 }
                  con.Close();
 
-
-
-
-
-
-
-
         }
+
+        private void button1_Click(object sender, EventArgs e) //Çıkış
+        {
+            this.Close();
+            Application.Exit();
+        }
+
     }
 }

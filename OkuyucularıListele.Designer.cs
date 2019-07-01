@@ -138,7 +138,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 324);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1240, 279);
+            this.dataGridView1.Size = new System.Drawing.Size(1072, 318);
             this.dataGridView1.TabIndex = 12;
             this.dataGridView1.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEnter);
             // 
@@ -386,7 +386,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.Location = new System.Drawing.Point(1102, 623);
+            this.button6.Location = new System.Drawing.Point(1096, 593);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(150, 49);
             this.button6.TabIndex = 18;
@@ -398,7 +398,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1272, 684);
+            this.ClientSize = new System.Drawing.Size(1272, 645);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.button3);

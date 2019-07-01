@@ -17,48 +17,35 @@ namespace KütüphaneOtomasyonu
             InitializeComponent();
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void button7_Click(object sender, EventArgs e) //Çıkış
         {
             this.Close();
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //Kitap Listesi formu
         {
             kitapListele kitaplistele = new kitapListele();
             kitaplistele.Show();
             this.Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) //Okuyucu listesi formu
         {
             OkuyucularıListele okuyucularılistele = new OkuyucularıListele();
             okuyucularılistele.Show();
             this.Hide();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            EmanetAlVer emanet = new EmanetAlVer();
-            emanet.Show();
-            this.Hide();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            EmanetVerilenKitaplar emanetverilen = new EmanetVerilenKitaplar();
-            emanetverilen.Show();
-            this.Hide();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
+       
+        private void button5_Click(object sender, EventArgs e) //Kitap ekleme formu
         {
             KitapEkle kitapekle = new KitapEkle();
             kitapekle.Show();
             this.Hide();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e) //okuyucu ekleme formu
         {
             OkuyucuEkle okuyucuekle = new OkuyucuEkle();
             okuyucuekle.Show();
